@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_salir" android:title="Salir"
+        android:orderInCategory="100" app:showAsAction="never"/>
+    <item android:id="@+id/action_menu" android:title="Menu"
+        android:orderInCategory="100" app:showAsAction="never">
+
+        <menu xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:id="@+id/opA" android:title="Opcion A"/>
+            <item android:id="@+id/opB" android:title="Opcion B"/>
+            <item android:id="@+id/opC" android:title="Opcion C"/>
+        </menu>
+
+    </item>
+</menu>
